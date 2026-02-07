@@ -62,12 +62,12 @@ jobs:
           body: |
             ### Install from PyPI:
             ```bash
-            pip install acp-gh
+            pip install server-gh
             ```
 
             ### Or install directly from GitHub:
             ```bash
-            pip install https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/acp_gh-${{ steps.get_version.outputs.VERSION }}-py3-none-any.whl
+            pip install https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/server_gh-${{ steps.get_version.outputs.VERSION }}-py3-none-any.whl
             ```
           draft: false
           prerelease: false
