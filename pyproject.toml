@@ -52,6 +52,9 @@ dev = [
     "twine==6.2.0",
 ]
 
+[tool.setuptools]
+py-modules = ["server"]
+
 [tool.ruff]
 # Ignore line length rules (E501) - using black for formatting
 lint.ignore = ["E501"]
